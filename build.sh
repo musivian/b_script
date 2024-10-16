@@ -8,7 +8,7 @@ sudo rm -rf .repo/local_manifests/
 sudo rm -rf device/* vendor/*
 
 #repo init rom
-repo init -u https://github.com/LineageOS/android.git -b lineage-22.0 --git-lfs --depth=1
+repo init -u https://github.com/LineageOS/android.git -b lineage-21.0 --git-lfs --depth=1
 echo "=================="
 echo "Repo init success"
 echo "=================="
