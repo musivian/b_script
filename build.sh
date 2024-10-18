@@ -33,8 +33,8 @@ echo "======= Export Done ======"
 source build/envsetup.sh
 echo "====== Envsetup Done ======="
 
-#lunch sunny-ap2a-user
-brunch sunny user
+lunch sunny-ap2a-user
+#brunch sunny user
 
 make installclean -j$(nproc --all)
 echo "============="
