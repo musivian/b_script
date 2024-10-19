@@ -4,7 +4,7 @@
 rm -rf .repo/local_manifests/
 
 # Initialize the ROM manifest using RisingTechOSS repository (branch 'fourteen')
-repo init -u https://github.com/LineageOS/android.git -b lineage-21.0 --git-lfs --depth=1
+repo init -u https://github.com/LineageOS/android.git -b lineage-21.0 --git-lfs
 
 # Synchronize the repository using the custom 'resync.sh' script
 /opt/crave/resync.sh
