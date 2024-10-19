@@ -43,7 +43,7 @@ git clone https://github.com/KProfiles/android_packages_apps_Kprofiles.git --dep
 
 # Clone source modifications, including media hardware and vendor Lineage files
 git clone https://github.com/yaap/hardware_qcom-caf_sm8150_media.git --depth 1 -b fourteen hardware/qcom-caf/sm8150/media
-git clone https://github.com/POS-sunny/vendor_aosp.git --depth 1 -b fourteen vendor/aosp
+git clone https://github.com/dpenra-sunny/android_vendor_lineage.git --depth 1 -b fourteen vendor/lineage
 
 # Set up the build environment (source environment setup script)
 . build/envsetup.sh
